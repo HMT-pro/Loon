@@ -3,7 +3,8 @@
 #!author = Leslie、
 #!homePage = https://github.com/HMT-pro/Loon/tree/main/Plugin
 #!data = 2024-12-3
-#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/XiaoCan.png
+#!icon = https://github.com/HMT-pro/Loon/blob/a13e2af3d874ee5b15a0c63501796a1d9d1a3ac6/icon/Smoothrase%20-%20AI%20erase%20on%20photo.png
+#！https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/XiaoCan.png
 #!system = iOS,iPadOS
 #!loon_version = 3.2.3(753)
 
