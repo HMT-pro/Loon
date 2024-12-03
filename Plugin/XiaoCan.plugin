@@ -5,7 +5,7 @@
 #!data = 2024-12-3
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/XiaoCan.png
 #!system = iOS,iPadOS
-#!loon_version = 3.2.3(753)
+#!loon_version = 3.2.4(753)
 
 [Argument]
 
