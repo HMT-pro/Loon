@@ -1,9 +1,9 @@
 #!name = XiaoCan
 #!desc = 更改 @Sliverkiss的小蚕霸王餐脚本 添加获取cookie/token及脚本开关
-#!author = Sliverkiss [https://github.com/Sliverkiss]
-#!homePage = https://t.me/sliverkiss_blog
-#!data = 2024-09-21
-#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/gril.png
+#!author = Leslie、
+#!homePage = https://github.com/HMT-pro/Loon/tree/main/Plugin
+#!data = 2024-12-3
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/XiaoCan.png
 #!system = iOS,iPadOS
 #!loon_version = 3.2.3(753)
 
