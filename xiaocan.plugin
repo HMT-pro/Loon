@@ -1,0 +1,20 @@
+#!name = SakuraChatCookie
+#!desc = 🌸Sakura Scripts 获取cookie/token
+#!author = Sliverkiss [https://github.com/Sliverkiss]
+#!homePage = https://t.me/sliverkiss_blog
+#!data = 2024-09-21
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/gril.png
+#!system = iOS,iPadOS
+#!loon_version = 3.2.3(753)
+
+[Argument]
+
+arg1 = switch,true,tag=小蚕霸王餐获取cookie/token
+arg2= input,"9 9 * * *",tag=小蚕霸王餐任务时间
+arg3 = switch,true,tag=小蚕霸王餐任务开关
+[Script]
+http-response ^https:\/\/gw\.xiaocantech\.com\/rpc script-path=https://gist.githubusercontent.com/Sliverkiss/250a02315f0a2c99f42da3b3573375c8/raw/xcbwc.js, requires-body=true, timeout=60, enable = {arg1}, tag=小蚕霸王餐
+cron {arg2} script-path=https://gist.githubusercontent.com/Sliverkiss/250a02315f0a2c99f42da3b3573375c8/raw/xcbwc.js, timeout=300, enable={arg3}, tag=小蚕霸王餐
+
+[MITM]
+hostname = gw.xiaocantech.com
