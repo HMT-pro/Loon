@@ -1,0 +1,30 @@
+{
+  "WFWorkflowClientVersion": "844",
+  "WFWorkflowActions": [
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getclipboard",
+      "WFWorkflowActionParameters": {},
+      "WFWorkflowActionType": "Action"
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.text",
+      "WFWorkflowActionParameters": {
+        "WFTextActionText": "保存到ClipboardHistory.json"
+      },
+      "WFWorkflowActionType": "Action"
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.savefile",
+      "WFWorkflowActionParameters": {
+        "WFFileDestinationPath": "ClipboardHistory.json",
+        "WFFileOverwrite": true
+      },
+      "WFWorkflowActionType": "Action"
+    }
+  ],
+  "WFWorkflowClientRelease": "2.3.2",
+  "WFWorkflowTypes": [
+    "NCWidget",
+    "WatchKit"
+  ]
+}
