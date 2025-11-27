@@ -6,7 +6,7 @@
 *******************************
 [rewrite_local]
 
-^https:\/\/userapi.feidee.net\/v1\/profile\/basic_info url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/fanqdj.js
+^https:\/\/userapi.feidee.net\/v1\/profile\/basic_info url script-response-body https://raw.githubusercontent.com/HMT-pro/Loon/refs/heads/main/Plugin/ssj.js
 
 
 [mitm]
